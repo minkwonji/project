@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="sub3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="gnb">
+            <div class="inner">
+                <ul>
+                    <li><a href="#">레시피</a>
+                        <ul class="dropdown"><a href="sub.html">
+                                <li>커피</li>
+                            </a></ul>
+                        <ul class="dropdown"><a href="sub2.html">
+                                <li>디저트</li>
+                            </a></ul>
+                        <ul class="dropdown"><a href="">
+                                <li>음료</li>
+                            </a></ul>
+                    </li>
+
+                    <li><a href="#">홈카페용품</a>
+                        <ul class="dropdown"><a href="sub3.html">
+                                <li>커피용품</li>
+                            </a></ul>
+                        <ul class="dropdown"><a href="">
+                                <li>베이킹 용품</li>
+                            </a></ul>
+                        <ul class="dropdown"><a href="">
+                                <li>티 용품</li>
+                            </a></ul>
+                    </li>
+                    <li><a href="index.html">
+                            <h1 class="logo">CafeAtoZ</h1>
+                        </a></li>
+                    <li><a href="sub4.html">클래스</a>
+                        <ul class="dropdown"><a href="sub4.html">
+                                <li>커피</li>
+                            </a></ul>
+                        <ul class="dropdown"><a href="sub4.html">
+                                <li>디저트</li>
+                            </a></ul>
+                        <ul class="dropdown"><a href="sub4.html">
+                                <li>음료</li>
+                            </a></ul>
+                    </li>
+                    <li><a href="#">고객센터
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="top_image">
+
+    </div>
+    <ul class="select_menu">
+        <li><a href="sub.html" target="_self">전체</a></li>
+        <li><a href="">커피</a></li>
+        <li><a href="">머신</a></li>
+        <li><a href="">핸드드립</a></li>
+        <li><a href="">ETC</a></li>
+    </ul>
+    <div class="contents_wrap">
+        <div class="left_wrap">
+            <div class="filter_group">
+                <h1 class="filter">Filter</h1>
+                <h2 class="search">검색</h2>
+                <input id="search" type="text">
+            </div>
+            <div class="brand_group">
+                <h2 class="brand">브랜드</h2>
+                <div class="caldin">
+                    <input type="checkbox" id="checkbox01">
+                    <label for="checkbox01" id="label01">칼딘</label>
+                </div>
+                <div class="comac">
+                    <input type="checkbox" id="checkbox02">
+                    <label for="checkbox02" id="label02">코맥</label>
+                </div>
+                <div class="bin">
+                    <input type="checkbox" id="checkbox03">
+                    <label for="checkbox03" id="label03">빈플러스</label>
+                </div>
+                <div class="hario">
+                    <input type="checkbox" id="checkbox04">
+                    <label for="checkbox04" id="label04">하리오</label></div>
+                <div class="maxim">
+                    <input type="checkbox" id="checkbox05">
+                    <label for="checkbox05" id="label05">맥심</label></div>
+                <div class="more"><a href="">+ 더보기</a></div>
+            </div>
+            <div class="froduct_group">
+                <h2 class="productcase">
+                    상품 유형
+                </h2>
+                <div class="caldin">
+                    <input type="checkbox" id="checkbox06">
+                    <label for="checkbox06" id="label06">새 상품</label>
+                </div>
+                <div class="comac">
+                    <input type="checkbox" id="checkbox07">
+                    <label for="checkbox07" id="label07">재포장</label>
+                </div>
+                <div class="bin">
+                    <input type="checkbox" id="checkbox08">
+                    <label for="checkbox08" id="label08">중고</label>
+                </div>
+                <div class="hario">
+                    <input type="checkbox" id="checkbox09">
+                    <label for="checkbox09" id="label09">렌탈 상품</label></div>
+            </div>
+            <div class="quantity_group">
+                <h2 class="quantity">
+                    총 수량
+                </h2>
+                <div class="caldin">
+                    <input type="checkbox" id="checkbox06">
+                    <label for="checkbox06" id="label06">2개 이하</label>
+                </div>
+                <div class="comac">
+                    <input type="checkbox" id="checkbox07">
+                    <label for="checkbox07" id="label07">2~5개<label>
+                </div>
+                <div class="bin">
+                    <input type="checkbox" id="checkbox08">
+                    <label for="checkbox08" id="label08">5~10개</label>
+                </div>
+                <div class="hario">
+                    <input type="checkbox" id="checkbox09">
+                    <label for="checkbox09" id="label09">10개 이상</label></div>
+            </div>
+            <div class="measure_group">
+                <h2 class="measure">
+                    용량
+                </h2>
+                <div class="caldin">
+                    <input type="checkbox" id="checkbox010">
+                    <label for="checkbox010" id="label010">200ml 이하</label>
+                </div>
+                <div class="comac">
+                    <input type="checkbox" id="checkbox11">
+                    <label for="checkbox11" id="label11">200ml~500ml<label>
+                </div>
+                <div class="bin">
+                    <input type="checkbox" id="checkbox12">
+                    <label for="checkbox12" id="label12">500ml~1000ml</label>
+                </div>
+                <div class="hario">
+                    <input type="checkbox" id="checkbox13">
+                    <label for="checkbox13" id="label13">1L 이상</label></div>
+            </div>
+            <div class=" review_group">
+                <h2 class="review">
+                    별점
+                </h2>
+                <div class="stars">
+                    <div class="star 4star"><a href=""><img src="/images/review.png" alt=""></a><span>4점 이상</span></div>
+                    <div class="star 3star"><a href=""><img src="/images/review.png" alt=""></a><span>3점 이상</span></div>
+                    <div class="star 2star"><a href=""><img src="/images/review.png" alt=""></a><span>2점 이상</span></div>
+                    <div class="star 1star"><a href=""><img src="/images/review.png" alt=""></a><span>1점 이상</span></div>
+                </div>
+            </div>
+
+            <div class="price-group">
+                <h2 class="price">가격</h2>
+                <div class="caldin">
+                    <input type="checkbox" id="checkbox014">
+                    <label for="checkbox014" id="label014">2만원 이하</label>
+                </div>
+                <div class="comac">
+                    <input type="checkbox" id="checkbox15">
+                    <label for="checkbox15" id="label15">2만원~4만원<label>
+                </div>
+                <div class="bin">
+                    <input type="checkbox" id="checkbox16">
+                    <label for="checkbox16" id="label16">4만원~6만원</label>
+                </div>
+                <div class="hario">
+                    <input type="checkbox" id="checkbox17">
+                    <label for="checkbox17" id="label17">8만원 이상</label></div>
+
+                <input type="text" id="price">
+                <span>~</span>
+                <input type="text" id="price">
+                <input type="button" value="검색" class="button">
+            </div>
+        </div>
+        <div class="right_wrap">
+            <div class="product_title">
+                <span>TOTAL 107 items</span>
+                <ul class="select_category">
+                    <a href="">
+                        <li>NEW</li>
+                    </a>
+                    <li> | </li>
+                    <a href="">
+                        <li>BEST</li>
+                    </a>
+                    <li> | </li>
+                    <a href="">
+                        <li>EVENT</li>
+                    </a>
+                    <li> | </li>
+                    <a href="">
+                        <li>LOW PRICE</li>
+                    </a>
+                    <li> | </li>
+                    <a href="">
+                        <li>HIGH PRICE</li>
+                    </a>
+                    <li> | </li>
+                    <a href="">
+                        <li>LIKE</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="product-group">
+                <div class="row row1">
+                    <a href="">
+                        <div class="item item01">
+                            <div class="img img01"></div>
+                            <div class="name-group">
+                                <div class="name_left">
+                                    <p class="product_name">핸디 우유거품기 <p class="o_price">원가 <del>10,000원</del></p>
+                                    </p>
+                                </div>
+                                <div class="name_right">
+                                    <div class="icon">
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    </div>
+                                    <p class="sale">할인가 9,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="item item02">
+                            <div class="img img02"></div>
+                            <div class="name-group">
+                                <div class="name_left">
+                                    <p class="product_name">더치 커피 메이커 <p class="o_price">원가 <del>18,000원</del></p>
+                                    </p>
+                                </div>
+                                <div class="name_right">
+                                    <div class="icon">
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    </div>
+                                    <p class="sale">할인가 9,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="item item03">
+                            <div class="img img03"></div>
+                            <div class="name-group">
+                                <div class="name_left">
+                                    <p class="product_name">로스팅용 원형 채망<p class="o_price">원가 <del>10,000원</del></p>
+                                    </p>
+                                </div>
+                                <div class="name_right">
+                                    <div class="icon">
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    </div>
+                                    <p class="sale">할인가 9,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="item item04">
+                            <div class="img img04"></div>
+                            <div class="name-group">
+                                <div class="name_left">
+                                    <p class="product_name">비얄레따 모카 4컵<p class="o_price">원가 <del>13,000원</del></p>
+                                    </p>
+                                </div>
+                                <div class="name_right">
+                                    <div class="icon">
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    </div>
+                                    <p class="sale">할인가 9,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="row row2">
+                    <a href="">
+                        <div class="item item01">
+                            <div class="img img05"></div>
+                            <div class="name-group">
+                                <div class="name_left">
+                                    <p class="product_name">모이카 더치커피 기구 30인용<p class="o_price">원가 <del>355,000원</del></p>
+                                    </p>
+                                </div>
+                                <div class="name_right">
+                                    <div class="icon">
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    </div>
+                                    <p class="sale">할인가 324,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="item item02">
+                            <div class="img img06"></div>
+                            <div class="name-group">
+                                <div class="name_left">
+                                    <p class="product_name">수망로스터<p class="o_price">원가 <del>10,000원</del></p>
+                                    </p>
+                                </div>
+                                <div class="name_right">
+                                    <div class="icon">
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    </div>
+                                    <p class="sale">할인가 9,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="item item03">
+                            <div class="img img07"></div>
+                            <div class="name-group">
+                                <div class="name_left">
+                                    <p class="product_name">시럽 전용 펌프<p class="o_price">원가 <del>10,000원</del></p>
+                                    </p>
+                                </div>
+                                <div class="name_right">
+                                    <div class="icon">
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    </div>
+                                    <p class="sale">할인가 9,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="item item04">
+                            <div class="img img08"></div>
+                            <div class="name-group">
+                                <div class="name_left">
+                                    <p class="product_name">아날로그 온도계<p class="o_price">원가 <del>8,000원</del></p>
+                                    </p>
+                                </div>
+                                <div class="name_right">
+                                    <div class="icon">
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    </div>
+                                    <p class="sale">할인가 9,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="row row3">
+                    <a href="">
+                        <div class="item item01">
+                            <div class="img img09"></div>
+                            <div class="name-group">
+                                <div class="name_left">
+                                    <p class="product_name">이중망 우유 거품기<p class="o_price">원가 <del>11,000원</del></p>
+                                    </p>
+                                </div>
+                                <div class="name_right">
+                                    <div class="icon">
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    </div>
+                                    <p class="sale">할인가 9,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="item item02">
+                            <div class="img img10"></div>
+                            <div class="name-group">
+                                <div class="name_left">
+                                    <p class="product_name">전동 우유거품기<p class="o_price">원가 <del>30,000원</del></p>
+                                    </p>
+                                </div>
+                                <div class="name_right">
+                                    <div class="icon">
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    </div>
+                                    <p class="sale">할인가 27,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="item item03">
+                            <div class="img img11"></div>
+                            <div class="name-group">
+                                <div class="name_left">
+                                    <p class="product_name">주방용 전자저울 <p class="o_price">원가 <del>11,000원</del></p>
+                                    </p>
+                                </div>
+                                <div class="name_right">
+                                    <div class="icon">
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    </div>
+                                    <p class="sale">할인가 9,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="item item04">
+                            <div class="img img12"></div>
+                            <div class="name-group">
+                                <div class="name_left">
+                                    <p class="product_name">짧은 계량스푼<p class="o_price">원가 <del>4,000원</del></p>
+                                    </p>
+                                </div>
+                                <div class="name_right">
+                                    <div class="icon">
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    </div>
+                                    <p class="sale">할인가 3 ,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="row row4">
+                    <a href="">
+                        <div class="item item01">
+                            <div class="img img13"></div>
+                            <div class="name-group">
+                                <div class="name_left">
+                                    <p class="product_name">청소용 브러쉬<p class="o_price">원가 <del>8,000원</del></p>
+                                    </p>
+                                </div>
+                                <div class="name_right">
+                                    <div class="icon">
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                        <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    </div>
+                                    <p class="sale">할인가 7,000원</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                    <div class="item item02">
+                        <div class="img img14"></div>
+                        <div class="name-group">
+                            <div class="name_left">
+                                <p class="product_name">콜드브루 전용우드탬퍼 <p class="o_price">원가 <del>7,000원</del></p>
+                                </p>
+                            </div>
+                            <div class="name_right">
+                                <div class="icon">
+                                    <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                </div>
+                                <p class="sale">할인가 6,000원</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                    <a href="">
+                    <div class="item item03">
+                        <div class="img img15"></div>
+                        <div class="name-group">
+                            <div class="name_left">
+                                <p class="product_name">클립스푼<p class="o_price">원가 <del>10,000원</del></p>
+                                </p>
+                            </div>
+                            <div class="name_right">
+                                <div class="icon">
+                                    <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                </div>
+                                <p class="sale">할인가 9,000원</p>
+                            </div>
+                        </div>
+                    </div></a><a href="">
+                    <div class="item item04">
+                        <div class="img img16"></div>
+                        <div class="name-group">
+                            <div class="name_left">
+                                <p class="product_name">프렌치 프레스<p class="o_price">원가 <del>35,000원</del></p>
+                                </p>
+                            </div>
+                            <div class="name_right">
+                                <div class="icon">
+                                    <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                    <div class="icon1"><a href=""><img src="/images/review.png" alt=""></a></div>
+                                </div>
+                                <p class="sale">할인가 32,000원</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_top">
+            <div class="copyright">
+                <h1>Cafe</h1>
+                <h2>AtoZ</h2>
+                <div class="line"></div>
+                <p>집에서 함께하는<br>하나의 순간</p>
+            </div>
+            <ul class="etc">
+                <li id="lietc">ETC</li>
+                <li><a href="">공지사항</a></li>
+                <li><a href="">이용약관</a></li>
+                <li><a href="">개인정보취급방침</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">환불규정</a></li>
+            </ul>
+            <ul class="creator">
+                <li id="licreator">크리에이터</li>
+                <li><a href="">크리에이터 지원</a></li>
+                <li><a href="">채용약관</a></li>
+                <li><a href="">도움말</a></li>
+            </ul>
+            <ul class="service">
+                <h1>고객센터</h1>
+                <div class="complain">
+                    <a href="">문의하기</a>
+                </div>
+                <p>오전 9시 ~ 오후 6시 (주말 공휴일 제외)</p>
+            </ul>
+        </div>
+        <div class="info">(주) CafeAtoZ | 대표 지민권, 이준우 | 서울 용산구 보광동 283-2 2층 | 사업자 등록번호 : 123-12-00123 | 통신판매업신고 : 2020-서울용산-0012 | atozs@cafeatoz.co.kr </div>
+        <div class="footer_bottom">COPYRIGHT ⓒ 2021CAFEATOZ</div>
+    </footer>
+</body>
+
+</html>

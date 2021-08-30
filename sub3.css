@@ -1,0 +1,548 @@
+body {
+    text-decoration: none;
+    letter-spacing: -0.5px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #191919;
+}
+
+.logo {
+    font-weight: 700;
+}
+
+.top_image {
+    max-width: 1920px;
+    background: url(images/sub_banner.png);
+    height: 250px;
+}
+
+.select_menu {
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 400;    
+}
+
+.select_menu li {
+    width: 200px;
+}
+
+.select_menu li:nth-child(2):after {
+    height: 3px;
+    background: #191919;
+    display: block;
+    content: '';
+    margin-top: 15px;
+}
+
+
+.select_inner {
+    line-height: 70px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+[type="checkbox"] {
+    margin-right: 10px;
+}
+
+#checkbox02 {
+
+}
+
+#checkbox03 {
+
+}
+
+#checkbox04 {
+}
+
+.menu_group {
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 410px;
+    height: 500px;
+    border: 1px solid #c9c9c9;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.menu_top {
+    width: 100%;
+    height: 300px;
+    background: #f3f3f3 url();
+}
+
+.menu_bottom {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.script {
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+
+
+
+footer {
+    height: 400px;
+    width: 100%;
+    background: #2c2c36;
+    margin-top: 100px;
+}
+
+.footer_top {
+    display: flex;
+    max-width: 1280px;
+    justify-content: space-between;
+    color: #fff;
+    margin: 0 auto;   
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright h1 {
+    font-size: 26px;
+}
+
+.copyright h2 {
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.copyright .line {
+    height: 40px;
+    width: 1px;
+    background: #fff;
+    margin: 15px auto;
+}
+
+.copyright p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.footer_top a:link {
+    color: #fff;
+}
+
+.footer_top a:active {
+    color: #fff;
+}
+
+.footer_top a:visited {
+    color: #fff;
+}
+
+.footer_top a:hover {
+    color: #fff;
+}
+
+.etc #lietc {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.etc li:nth-of-type(n+1) {
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.creator #licreator {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.creator li:nth-of-type(n+1) {
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.service h1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.service p {
+    font-size: 14px;
+    font-weight: 100;
+    color: #e2e2e2;
+}
+
+.complain {
+    width: 190px;
+    height: 40px;
+    background:  #e2e2e2;
+    color: #2c2c36;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.complain a {
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.complain a:hover {
+    color: #2c2c36;
+    opacity: .3;
+    transition: .5s;
+}
+
+.complain a:link {
+    color: #2c2c36;
+}
+
+.complain a:active {
+    color: #2c2c36;
+}
+
+.complain a:visited {
+    color: #2c2c36;
+}
+
+.info {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    color: #a3a3a3;
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 100px;
+}
+
+.footer_bottom {
+    margin: 0 auto;
+    max-width: 1280px;
+    color: #a3a3a3;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-top: #e2e2e2;
+    height: 50px;
+}
+
+.left_wrap {
+    max-width: 15%;
+    padding-left: 50px;
+    border-right: 1px solid #dbdbdb;
+    position: sticky;
+    left: 0;
+}
+
+.left_wrap h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.left_wrap h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.search {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#search {
+    margin-left: 30px;
+}
+
+.filter_group {
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 20px;
+}
+
+[class$="_group"] {
+    border-bottom: 1px solid #dbdbdb;
+    padding: 25px 0;
+}
+
+.price-group {
+    padding-top: 25px;
+}
+
+.stars {
+    margin-left: 30px;
+}
+
+
+[type] {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.more {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.stars .star a img {
+    margin-right: 10px;
+}
+
+.star {
+    margin-top: 10px;
+}
+
+.stars {
+    margin-top: 20px;
+}
+
+.contents_wrap {
+    display: flex ;
+    max-width: 1920px;
+    justify-content: space-between;
+}
+
+.right_wrap {
+    width: 79%;
+}
+
+.left_wrap {
+    width: 20%;
+}
+
+.product_title {
+    margin: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select_category {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    align-items: center;
+}
+
+.select_category li:nth-child(2n) {
+    margin: 0 10px;
+}
+
+.product-group {
+    width: 95%;
+
+}
+
+.row {
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.row1 {
+    
+}
+
+.item {
+    width: 25%;
+    height: 300px;
+}
+
+.img01 {
+    width: 90%;
+    height: 100%;
+    background: url(images/핸디\ 우유\ 거품기.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.img02 {
+    width: 90%;
+    height: 100%;
+    background: url(images/더치\ 커피\ 메이커.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.img03 {
+    width: 90%;
+    height: 100%;
+    background: url(images/로스팅용\ 원형\ 채망.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.img04 {
+    width: 90%;
+    height: 100%;
+    background: url(images/비얄레띠\ 모카\ 4컵.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.img05 {
+    width: 90%;
+    height: 100%;
+    background: url(images/모이카\ 더치커피\ 기구\ 30인용.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.img06 {
+    width: 90%;
+    height: 100%;
+    background: url(images/수망로스터\ L.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.img07 {
+    width: 90%;
+    height: 100%;
+    background: url(images/시럽\ 루틴\ 전용펌프.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.img08 {
+    width: 90%;
+    height: 100%;
+    background: url(images/아날로그\ 온도계.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.img09 {
+    width: 90%;
+    height: 100%;
+    background: url(images/이중망\ 우유\ 거품기.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.img10 {
+    width: 90%;
+    height: 100%;
+    background: url(images/전동\ 우유\ 거품기.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.img11 {
+    width: 90%;
+    height: 100%;
+    background: url(images/주방\ 전자저울.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.img12 {
+    width: 90%;
+    height: 100%;
+    background: url(images/짧은\ 계량스푼\ 10g\,12g.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.img13 {
+    width: 90%;
+    height: 100%;
+    background: url(images/청소용\ 브러쉬.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.img14 {
+    width: 90%;
+    height: 100%;
+    background: url(images/콜드브루\ 전용\ 우드탬퍼.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.img15 {
+    width: 90%;
+    height: 100%;
+    background: url(images/spoon.png)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.img16 {
+    width: 90%;
+    height: 100%;
+    background: url(images/프렌치\ 프레스.jpg)no-repeat;
+    background-size: cover;
+    margin: 0 20px;
+}
+
+
+.product_name {
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.sale {
+    display: inline-block;
+    float: right;
+    margin-right: 25px;
+}
+
+.o_price {
+    font-size: 16px;
+    color: rgb(255, 83, 83);
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.name-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name_right {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    font-weight: 500;
+    justify-content: space-around;
+}
+
+.sale {
+    margin-top: 5px;   
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+}
